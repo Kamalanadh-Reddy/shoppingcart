@@ -2,7 +2,7 @@
 
 FROM tomcat:8.0-alpine
 
-COPy shoppingcart.war /usr/local/tomcat/webapps/
+COPY shoppingcart.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
